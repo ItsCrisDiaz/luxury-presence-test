@@ -343,13 +343,13 @@ header {
 .nav-menu {
   position: fixed;
   top: 3.75rem;
-  left: 20%;
+  right: 0;
   display: grid;
   align-items: center;
   gap: 1em;
   padding: 1em 1.3em 1em 1em;
   margin: 0;
-  width: 80%;
+  width: min(80%, 34.375rem);
   height: calc(100% - 3.75rem);
   text-align: end;
   background-color: var(--cl-main);
